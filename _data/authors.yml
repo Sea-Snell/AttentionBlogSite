@@ -1,5 +1,9 @@
 # Authors
 - 
+  name: Charlie Snell
+  image: /assets/images/charlie.jpg
+  link: https://twitter.com/sea_snell
+- 
   name: Ruiqi Zhong
   image: /assets/images/ruiqi.jpg
   link: https://ruiqi-zhong.github.io
@@ -7,10 +11,6 @@
   name: Jacob Steinhardt
   image: /assets/images/jacob.jpeg
   link: https://www.stat.berkeley.edu/~jsteinhardt/
-- 
-  name: Charlie Snell
-  image: /assets/images/charlie.jpg
-  link: https://twitter.com/sea_snell
 - 
   name: Dan Klein
   image: /assets/images/dan.jpg
