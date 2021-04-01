@@ -18,16 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Approximating Attention
+email: csnell22@berkeley.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Blog post for the paper Approximating How Single Head Attention Learns. We propose a simple model to approximate how single head attention learns.
+  This allows us to:
+  1) Understand why neural networks frequently attend to salient words;
+  2) Construct a distribution where an Attention-Seq2Seq architecture cannot even learn to copy the input.
 baseurl: "/AttentionBlogSite" # the subpath of your site, e.g. /blog
 url: "https://sea-snell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: sea_snell
+github_username:  Sea-Snell
 
 # Build settings
 theme: minima
