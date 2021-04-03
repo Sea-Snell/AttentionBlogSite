@@ -29,6 +29,7 @@ baseurl: "/AttentionBlogSite" # the subpath of your site, e.g. /blog
 url: "https://sea-snell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sea_snell
 github_username:  Sea-Snell
+header-img: assets/images/model2.png
 
 # Build settings
 theme: minima
