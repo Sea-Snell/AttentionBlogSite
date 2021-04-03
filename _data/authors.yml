@@ -8,10 +8,10 @@
   image: /assets/images/ruiqi.jpg
   link: https://ruiqi-zhong.github.io
 - 
-  name: Jacob Steinhardt
-  image: /assets/images/jacob.jpeg
-  link: https://www.stat.berkeley.edu/~jsteinhardt/
-- 
   name: Dan Klein
   image: /assets/images/dan.jpg
   link: https://people.eecs.berkeley.edu/~klein/
+- 
+  name: Jacob Steinhardt
+  image: /assets/images/jacob.jpeg
+  link: https://www.stat.berkeley.edu/~jsteinhardt/

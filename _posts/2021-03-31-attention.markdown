@@ -16,12 +16,10 @@ categories: Attention
 
 <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-# Approximating How Single Head Attention Learns
+**We propose a simple model to approximate how single head attention learns. This allows us to:**
 
-We propose a simple model to approximate how single head attention learns. This allows us to:
-
-- Understand why neural networks frequently attend to salient words;
-- Construct a distribution where an Attention-Seq2Seq architecture cannot even learn to copy the input.
+- **Understand why neural networks frequently attend to salient words;**
+- **Construct a distribution where an Attention-Seq2Seq architecture cannot even learn to copy the input.**
 
 <div class="links">
   <a href="https://github.com/Sea-Snell/AttentionDynamics"><button class="code-button">code</button></a>
@@ -114,7 +112,8 @@ Say, for example, $\beta_{0} = -K, \beta_{1} = 3K, p = 0.5$, then the total loss
 
 The above toy classifier looks interesting, but how does it relate to more complicated "real" classifiers? Here we introduce a commonly used gated-LSTM classifier and compare it to the toy classifier.
 
-![]({{site.baseurl}}/assets/images/model.jpg)
+<!-- ![]({{site.baseurl}}/assets/images/model2.png) -->
+<img class="post-image" src="{{site.baseurl}}/assets/images/model2.png" style="width:100%;"/>
 ###### An illustration of our LSTM model. Words are first embedded and then encoded by an LSTM. Next attention scores computed and used to aggergate the LSTM hidden states, before a final output transformation.
 
 
@@ -181,7 +180,8 @@ This might be a bit counter-intuitive - the 2nd distribution has strictly larger
 
 We must take the optimization trajectory into account to understand this phenomena.
 
-![]({{site.baseurl}}/assets/images/copying.png)
+<!-- ![]({{site.baseurl}}/assets/images/copying.png) -->
+<img class="post-image" src="{{site.baseurl}}/assets/images/copying.png" style="width:50%;"/>
 ###### training on a distribution of sequences of 40 tokens chosen from a vocab of 60, verses permutations of 40 tokens. As you can see, 40 out of 60 consistenly converges, whereas the permutations frequently fail to learn.
 
 ## Limitations and Usage of Our Model
