@@ -113,7 +113,7 @@ Say, for example, $\beta_{0} = -K, \beta_{1} = 3K, p = 0.5$, then the total loss
 The above toy classifier looks interesting, but how does it relate to more complicated "real" classifiers? Here we introduce a commonly used gated-LSTM classifier and compare it to the toy classifier.
 
 <!-- ![]({{site.baseurl}}/assets/images/model2.png) -->
-<img class="post-image" src="{{site.baseurl}}/assets/images/model2.png" style="width:100%;"/>
+<img class="post-image" src="{{site.baseurl}}/assets/images/model3.png" style="width:100%;"/>
 ###### An illustration of our LSTM model. Words are first embedded and then encoded by an LSTM. Next attention scores computed and used to aggergate the LSTM hidden states, before a final output transformation.
 
 
