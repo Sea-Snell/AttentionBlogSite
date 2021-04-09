@@ -203,4 +203,4 @@ On the other hand, our model is useful, since:
 - It can predict some counter-intuitive empirical phenomena, such as the fact that the architecture sometimes fails to learn a simple identity function under a distribution of permutations.
 - By formalizing this model and crisply stating our approximation assumptions, we can now pinpoint precisely which assumptions are violated whenever practice deviates from our theoretical predictions. This can help us develop better approximation models in the future.
 
-*We'd like to thank Eric Wallace, Frances Ding, Adi Sujithkumar, and Surya Vengadesan for giving helpful feedback on this blog*
+*We'd like to thank Eric Wallace, Frances Ding, Adi Sujithkumar, and Surya Vengadesan for giving us helpful feedback on this blog.*
